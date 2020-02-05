@@ -1,6 +1,6 @@
 package main
 
-type queueMethods interface {
+type Queue interface {
 	len() int
 	first() *element
 	last() *element
